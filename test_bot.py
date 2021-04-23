@@ -1,5 +1,5 @@
 import os
-토큰 = os.environ["token"]#"ODM0OTk2NDM2NzIxODYwNjI4.YIJBBw.eoj2saA5sXH8MRmzQ8vq9OWNS9M"
+토큰 = os.environ["token"]
 import discord
 import time
 import asyncio
