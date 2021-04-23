@@ -1,21 +1,11 @@
-토큰 = "ODM0OTk2NDM2NzIxODYwNjI4.YIJBBw.5DQfkLjrUNQTkQz5tswUd_2uRP4"
+import os
+토큰 = os.environ["token"]#"ODM0OTk2NDM2NzIxODYwNjI4.YIJBBw.eoj2saA5sXH8MRmzQ8vq9OWNS9M"
 import discord
-#import youtube_dl
-#import openpyxl
-import sqlite3
 import time
 import asyncio
 import random
 import datetime
 #import bs4
-import os
-import traceback
-import contextlib
-import io
-from pytz import timezone 
-from datetime import datetime
-#import requests
-import urllib
 #from bs4 import BeautifulSoup
 from discord.ext import commands
 join_count = 0
@@ -69,9 +59,7 @@ async def on_member_join(member):
         await member.add_roles(discord.utils.get(member.guild.roles, id = 822050515763462155))#사용권#
         await member.add_roles(discord.utils.get(member.guild.roles, id = 812714920952070203))#새로온 사람
         embed=discord.Embed(title="", description=f"""
-
 <#813039442146623568> 에  닉네임/나이작성 필수 [나이비공개역할 ]/성별/들어온경로 적어주시고
-
 <#825536880233414676> 에서 <@&825353627744993351> 또는 <@&825353712218275900> 을 불러주세요""",color=0x00FF7F)
         embed.set_author(name=f"{member}", icon_url=member.avatar_url)
         embed.set_thumbnail(url=member.avatar_url)
