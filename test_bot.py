@@ -1,4 +1,4 @@
-토큰 = "ODM0OTk2NDM2NzIxODYwNjI4.YIJBBw.Ma5x25caiOv23SvOKovq9oTHjok"
+토큰 = "ODM0OTk2NDM2NzIxODYwNjI4.YIJBBw.5DQfkLjrUNQTkQz5tswUd_2uRP4"
 import discord
 #import youtube_dl
 #import openpyxl
